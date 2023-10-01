@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lincy - Personal Portfolio</title>
+
+  <!--
+      - favicon
+    -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+      - custom css link
+    -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+      - google font link
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myphoto.png" alt="Mary Lincy S" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mary Lincy S">Mary Lincy S</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:marylincy321@gmail.com" class="contact-link">marylincy321@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916379440856" class="contact-link">+916379440856</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-03-11">March 11, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kanyakumari, India.</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mary-lincy-s-602847252/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Lincy-1103" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/little_muffin_11?igshid=NGVhN2U2NjQ0Yg==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #RESUME
+    -->
+
+
+    <div class="main-content">
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html"> <button class="navbar-link active" data-nav-link-id="about">About</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="education.html"><button class="navbar-link" data-nav-link-id="resume">Resume</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="portfolio.html"><button class="navbar-link" data-nav-link>Portfolio</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html"><button class="navbar-link" data-nav-link>Contact</button></a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern<p class="timeline-text">FlutterFrog Software Solutions</p>
+              </h4>
+
+              <span>2023 — Present</span>
+              <a href="https://stockflow.co.in/">
+                <p class="timeline-text">
+                  Working on an Admin App which is a part of FMCG Supply Chain Project.
+                </p>
+              </a>
+            </li>
+
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="interest">
+
+          <h3 class="h3 interest-title">Projects</h3>
+
+          <ul class="interest-list">
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/chatbot.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">Healthcare Chatbot</h4>
+
+                <p class="interest-item-text">
+                  Provides users with some precautions for their symptoms.
+                  Developed in Python.
+                  UI with Tkinter.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/accounting.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">Calculator</h4>
+
+                <p class="interest-item-text">
+                 Simple Calculator to perform simple calcultions developed with Flutter and Dart.
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills acquired in Intership</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web development</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Backend</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI Desinging in Flutter</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+  </main>
+
+  <!--
+  - custom js link
+-->
+  <script src="script.js"></script>
+
+  <!--
+  - ionicon link
+-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

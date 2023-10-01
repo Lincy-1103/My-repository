@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lincy - Personal Portfolio</title>
+  <script src="script.js"></script>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myphoto.png" alt="Mary Lincy S" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mary Lincy S">Mary Lincy S</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:marylincy321@gmail.com" class="contact-link">marylincy321@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916379440856" class="contact-link">+916379440856</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-03-11">March 11, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kanyakumari, India.</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mary-lincy-s-602847252/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Lincy-1103" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/little_muffin_11?igshid=NGVhN2U2NjQ0Yg==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+           <a href="index.html"> <button class="navbar-link active" data-nav-link-id="about">About</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="education.html"><button class="navbar-link" data-nav-link-id="resume">Resume</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="portfolio.html"><button class="navbar-link" data-nav-link>Portfolio</button></a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="contact.html"><button class="navbar-link" data-nav-link>Contact</button></a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A highly motivated and ambitious Computer Science Engineering student with a strong foundation in
+            technical knowledge and problem-solving skills. eager to work in web development and software development.
+          </p>
+        </section>
+
+
+        <!--
+          - skills
+        -->
+
+        <section class="interest">
+
+          <h3 class="h3 interest-title">Skills</h3>
+
+          <ul class="interest-list">
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/c.png
+                " alt="C icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">C</h4>
+
+                <p class="interest-item-text">
+                  Intermediate level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/java.png" alt="Java" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">Java</h4>
+
+                <p class="interest-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/python.png" alt="python icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">Python</h4>
+
+                <p class="interest-item-text">
+                  Intermediate level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/html-css.png" alt="html-css icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">HTML/CSS</h4>
+
+                <p class="interest-item-text">
+                  Developing websites using HTML/CSS.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+        <!--
+          - interest
+        -->
+
+        <section class="interest">
+
+          <h3 class="h3 interest-title">Interested In</h3>
+
+          <ul class="interest-list">
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/soft.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">Software Development</h4>
+
+                <p class="interest-item-text">
+                  Interested in developing software at beginner level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-icon-box">
+                <img src="./assets/images/web.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="interest-content-box">
+                <h4 class="h4 interest-item-title">Web development</h4>
+
+                <p class="interest-item-text">
+                  Development of Sites at the intermediate level.
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
